@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title','Update Exam Marks')
+@section('title','View Class Attendance')
 @push('internalCss')
 <style>
 </style>
