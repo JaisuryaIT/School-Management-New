@@ -335,7 +335,7 @@
                     class="rounded-circle btn-transparent btn-sm px-1 btn shadow-none">
                     <i class="ti ti-dots-vertical fs-6 d-block"></i>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1" style="">
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1" >
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li>
                     <a class="dropdown-item" href="#">Another action</a>
@@ -376,7 +376,7 @@
                     class="rounded-circle btn-transparent btn-sm px-1 btn shadow-none">
                     <i class="ti ti-dots-vertical fs-6 d-block"></i>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1" style="">
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1" >
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li>
                     <a class="dropdown-item" href="#">Another action</a>
@@ -422,7 +422,7 @@
                     <i class="ti ti-dots-vertical fs-6 d-block"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1"
-                    style="">
+                    >
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -462,7 +462,7 @@
                     <i class="ti ti-dots-vertical fs-6 d-block"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1"
-                    style="">
+                    >
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -502,7 +502,7 @@
                     class="rounded-circle btn-transparent btn-sm px-1 btn shadow-none">
                     <i class="ti ti-dots-vertical fs-6 d-block"></i>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1" style="">
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1" >
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li>
                     <a class="dropdown-item" href="#">Another action</a>

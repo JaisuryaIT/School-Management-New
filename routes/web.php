@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('teachers.circular_view');
+    return view('fees.view-fee');
 });
