@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title','Add Student')
+@section('title','Add Teacher')
 @push('internalCss')
 <style>
 </style>
