@@ -26,9 +26,11 @@ Route::get('/register', function () {return view('auth.signup');});
 
 Route::get('/login', function () {return view('auth.login');})->name('login');
 
-// Route::post('/register', [LoginController::class, 'register']);
+Route::get('/forgot_password', function () {return view('auth.forgot_password');});
 
-// Route::post('/login', [LoginController::class, 'login']);
+Route::post('/register', [LoginController::class, 'register']);
+
+Route::post('/login', [LoginController::class, 'login']);
 
 Route::middleware('auth')->group(function () {
 
@@ -43,7 +45,7 @@ Route::middleware('auth')->group(function () {
     // Route::post('/addcircular', [circularController::class, 'circularadd']);
 
     // Student
-    Route::get('/',function(){return view('admin.dashb');})->name('home');
+    Route::get('/',function(){return view('index');})->name('home');
 
     Route::get('/addstudent', function () {return view('student.add-student');});
 

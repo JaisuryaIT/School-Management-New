@@ -1,5 +1,5 @@
 @extends('layouts.auth')
-@section('title','Add Circular')
+@section('title','Sign Up')
 @push('internalCss')
 <style>
 </style>
@@ -39,24 +39,20 @@
                 <p class="mb-0 fs-3 px-3 d-inline-block bg-body z-1 position-relative">or sign Up with</p>
                 <span class="border-top w-100 position-absolute top-50 start-50 translate-middle"></span>
             </div>
-            <form>
-                <div class="mb-7">
-                <label for="text-name" class="form-label text-dark fw-bold">Name</label>
-                <input type="email" class="form-control py-6" id="text-name">
-                </div>
+            <form action="/register" method="post">
+            @csrf
                 <div class="mb-9">
-                <label for="text-email" class="form-label text-dark fw-bold">Email Address</label>
-                <input type="email" class="form-control py-6" id="text-email">
+                <label for="text-email" class="form-label text-dark fw-bold">Username</label>
+                <input type="text" name="email" class="form-control py-6" id="text-email">
                 </div>
                 <div class="mb-7">
                 <label for="text-pwd" class="form-label text-dark fw-bold">Password</label>
-                <input type="password" class="form-control py-6" id="text-pwd" >
+                <input type="password" name="password" class="form-control py-6" id="text-pwd" >
                 </div>
-                
-                <a href="index.html" class="btn btn-primary w-100 mb-7 rounded-pill">Sign Up</a>
+                <button class="btn btn-primary w-100 mb-7 rounded-pill">Sign Up</button>
                 <div class="d-flex align-items-center">
                 <p class="fs-3 mb-0 fw-medium">Already have an Account?</p>
-                <a class="text-primary fw-bold ms-2 fs-3" href="authentication-login.html">Sign In</a>
+                <a class="text-primary fw-bold ms-2 fs-3" href="/login">Sign In</a>
                 </div>
             </form>
         </div>

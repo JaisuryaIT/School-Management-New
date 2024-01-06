@@ -1,5 +1,5 @@
 @extends('layouts.auth')
-@section('title','Add Circular')
+@section('title','Forgot Password')
 @push('internalCss')
 <style>
 </style>
@@ -27,7 +27,7 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <a href="javascript:void(0)" class="btn btn-primary w-100 py-8 mb-3">Forgot Password</a>
-                <a href="authentication-login.html" class="btn bg-primary-subtle text-primary w-100 py-8">Back to Login</a>
+                <a href="/login" class="btn bg-primary-subtle text-primary w-100 py-8">Back to Login</a>
             </form>
             </div>
         </div>

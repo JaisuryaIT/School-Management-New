@@ -49,11 +49,11 @@ class LoginController extends Controller
 
         $user->save();
 
-        return  redirect()->back()->with('success','Created Successfully');
+        return  redirect()->route('login')->with('success','Created Successfully');
     }
 
     public function logout(){
         Auth::logout();
-        return redirect('/login');
+        return redirect()->route('login')->with('success','Logged Out Successfully');
     }
 }

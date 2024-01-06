@@ -7,6 +7,11 @@
 
 @push('bodycontent')
 <div class="row">
+@if(session('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <span>   {{ session('success') }} </span>
+    </div>
+@endif
     <div class="col-lg-6 d-flex align-items-stretch">
         <div class="card w-100">
         <div class="card-body border-bottom position-relative">
@@ -963,6 +968,8 @@
 
 @push('javascript')
 <script>
-
+setTimeout(function() {
+        $(".alert").alert('close');
+}, 3000);
 </script>
 @endpush
