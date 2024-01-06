@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('fees.view-fee');
+    return view('admin.view-holiday');
 });
