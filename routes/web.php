@@ -55,15 +55,13 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/earlycallentry', [EarlyCallController::class, 'view']);
 
-    // Route::post('/studentsearch', [StudentController::class, 'studentsearch']);
+    Route::post('/earlycallentry', [EarlyCallController::class, 'add']);
 
-    // Route::post('/earlycallentry', [EarlyCallController::class, 'add']);
+    Route::post('/addstudent', [StudentController::class, 'add']);
 
-    // Route::post('/addstudent', [StudentController::class, 'add']);
+    Route::post('/updatestudent/{id}', [StudentController::class, 'updatestudent']);
 
-    // Route::post('/updatestudent/{id}', [StudentController::class, 'updatestudent']);
-
-    // Route::post('/deletestudent/{id}', [StudentController::class, 'deletestudent']);
+    Route::post('/deletestudent/{id}', [StudentController::class, 'deletestudent']);
 
     // Teacher
     Route::get('/addteacher', function () {return view('teachers.add-teacher');});
@@ -71,21 +69,17 @@ Route::middleware('auth')->group(function () {
     Route::get('/teachers', [TeacherController::class, 'teacherview'])->name('teacherlist');
 
     Route::get('/teacherprofile/{id}', [TeacherController::class, 'editteacher']);
-    
-    // Route::post('/teachersearch', [TeacherController::class, 'teachersearch']);
 
-    // Route::post('/addteacher', [TeacherController::class, 'add']);
+    Route::post('/addteacher', [TeacherController::class, 'add']);
 
-    // Route::post('/updateteacher/{id}', [TeacherController::class, 'updateteacher']);
+    Route::post('/updateteacher/{id}', [TeacherController::class, 'updateteacher']);
     
-    // Route::post('/deleteteacher/{id}', [TeacherController::class, 'deleteteacher']);
+    Route::post('/deleteteacher/{id}', [TeacherController::class, 'deleteteacher']);
 
     //Leave
     Route::get('/leaveapply/{teacher_id}', [TeacherController::class, 'leaveapply']);
 
     Route::get('/leaveapproval', [TeacherController::class, 'leaveview'])->name('leavelist');
-
-    // Route::post('/leavesearch', [TeacherController::class, 'leavesearch']);
 
     Route::post('addleave', [TeacherController::class, 'leaveadd'])->name('leave.store');
 
@@ -104,15 +98,13 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/updateMarks/{id}', [ExamController::class, 'updateMarkView']);
 
-    // Route::post('/addexam', [ExamController::class, 'add'])->name('exam.store');
-    
-    // Route::post('/examsearch', [ExamController::class, 'examsearch']);
+    Route::post('/addexam', [ExamController::class, 'add'])->name('exam.store');
 
-    // Route::post('/updateexam/{id}', [ExamController::class, 'updateexam']);
+    Route::post('/updateexam/{id}', [ExamController::class, 'updateexam']);
 
-    // Route::post('/deleteexam/{id}', [ExamController::class, 'deleteexam']);
+    Route::post('/deleteexam/{id}', [ExamController::class, 'deleteexam']);
 
-    // Route::post('/updateMarks/{id}',[ExamController::class,'updateMark']);
+    Route::post('/updateMarks/{id}',[ExamController::class,'updateMark']);
     
     //classes
     Route::get('/addclasses', function () {return view('Class.add-class');});
@@ -123,41 +115,31 @@ Route::middleware('auth')->group(function () {
     
     Route::get('/classstudents/{id}', [ClassesController::class, 'classstudents'])->name('classstudents');
 
-    // Route::post('/addclass', [ClassesController::class, 'store']);
-    
-    // Route::post('/classsearch', [ClassesController::class, 'classsearch']);
+    Route::post('/addclass', [ClassesController::class, 'store']);
 
-    // Route::post('/updateclass/{id}', [ClassesController::class, 'updateclass']);
+    Route::post('/updateclass/{id}', [ClassesController::class, 'updateclass']);
 
-    // Route::post('/editclass/{id}/students/search', [ClassesController::class, 'editclassstudents'])->name('editstudents.search');
-    
-    // Route::post('/editclass/{id}/teachers/search', [ClassesController::class, 'editclassteacher'])->name('editteachers.search');
-    
-    // Route::post('/classstudents/{id}/students/search', [ClassesController::class, 'classstudentssearch'])->name('classstudents.search');
+    Route::post('/deleteclass/{id}', [ClassesController::class, 'deleteclass']);
 
-    // Route::post('/deleteclass/{id}', [ClassesController::class, 'deleteclass']);
+    Route::post('studentclassadd/{id_student}', [ClassesController::class, 'studentclassadd']);
 
-    // Route::post('studentclassadd/{id_student}', [ClassesController::class, 'studentclassadd']);
-
-    // Route::post('teacherclassadd/{id_teacher}', [ClassesController::class, 'teacherclassadd']);
+    Route::post('teacherclassadd/{id_teacher}', [ClassesController::class, 'teacherclassadd']);
 
     //Fees
     Route::get('/fees', [StudentController::class, 'feeview'])->name('feelist');
 
-    // Route::post('/feesearch', [StudentController::class, 'feesearch']);
-
-    // Route::post('updatefee/{id}', [StudentController::class, 'updatefee']);
+    Route::post('updatefee/{id}', [StudentController::class, 'updatefee']);
     
-    // Route::post('extra_fees/{id}', [StudentController::class, 'extra_fees']);
+    Route::post('extra_fees/{id}', [StudentController::class, 'extra_fees']);
 
     //Attendance 
     Route::get('/selectclass', [AttendanceController::class, 'selectclass'])->name('selectclass');
 
-    // Route::post('/classattendance', [AttendanceController::class, 'classattendance'])->name('classattendance');
+    Route::post('/classattendance', [AttendanceController::class, 'classattendance'])->name('classattendance');
 
-    // Route::post('/viewattendance', [AttendanceController::class, 'viewattendance']);
+    Route::post('/viewattendance', [AttendanceController::class, 'viewattendance']);
     
-    // Route::post('/markattendance', [AttendanceController::class, 'markattendance']);
+    Route::post('/markattendance', [AttendanceController::class, 'markattendance']);
 
     //Holiday
     Route::get('/addholiday', function () { return view('admin.add_holiday');});

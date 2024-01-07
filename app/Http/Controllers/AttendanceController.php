@@ -27,9 +27,6 @@ class AttendanceController extends Controller
         return view('atd.attendance_entry', compact('values','data'));
     }
 
-    public function classattendancesearch(Request $request){
-        
-    }
     public function markattendance(Request $request)
     {
         $selectedStudentIds = $request->input('selected_students');

@@ -49,24 +49,6 @@ class StudentController extends Controller
         return view('student.view-student', compact('values'));
     }
 
-    public function studentsearch(Request $request){
-        $query = StudentsBio::query();
-        if ($request->filled('id')) {
-            $query->where('id', $request->input('id'));
-        }
-        if ($request->filled('name')) {
-            $query->where('name', 'like', '%' . $request->input('name') . '%');
-        }
-        if ($request->filled('enrollment_number')) {
-            $query->where('enrollment_number', 'like', '%' . $request->input('enrollment_number') . '%');
-        }
-        $values = $query->get();
-        if ($values->isEmpty()) {
-            return redirect()->route('studentlist')->with('message', 'No results found.');
-        }
-        return view('student.view-student', compact('values'));
-    }
-
     public function editstudent($id){
         $data = StudentsBio::find($id);
         $data->class_name = Classes::where('id', $data->class_id)->value('ClassID');
@@ -124,36 +106,6 @@ class StudentController extends Controller
         return view('fees.view-fee', compact('values','classes'));
     }
 
-    public function feesearch(Request $request){
-        $name = $request->input('name');
-        $class = $request->input('class');
-        $status = $request->input('status');
-        $classes = Classes::select('id', 'ClassID')->get();
-        $query = StudentsBio::query();
-        $values = $query->select('id', 'name', 'class_id', 'fees', 'extra_fees', 'paid_fees', 'extra_paid_fees', 'fee_status');
-        if ($request->filled('name')) {
-            $values->where('name', 'like', '%' . $name . '%');
-        }
-         if ($request->filled('class') && ($class !== 'Search By Class')) {
-            $values->where('class_id', $class);
-        }
-        if ($request->filled('status') && ($status !== 'Search By Status')) {
-            $values->where('fee_status', $status);
-        }
-        $values = $values->get();
-        if ($values->isEmpty()) {
-            return redirect()->route('feelist')->with('message', 'No results found.');
-        }
-        foreach ($values as $value) {
-            if ($value->class_id === null) {
-                $value->class_name = "NA"; 
-            } else {
-                $class = Classes::find($value->class_id);
-                $value->class_name = $class->ClassID;
-            }
-        }
-        return view('fees.view-fee', compact('values','classes'));
-    }
     public function updatefee($id, Request $request){
             $values = StudentsBio::find($id);
             $updateAmount = $request->input('update_amount');

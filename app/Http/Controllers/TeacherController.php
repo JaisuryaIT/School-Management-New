@@ -37,28 +37,7 @@ class TeacherController extends Controller
         $values = TeachersBio::select('id','name','teacher_id','subject','total_experience','salary','contact_number')->get();
         return view('teachers.view-teacher', compact('values'));
     }
-
-    public function teachersearch(Request $request){
-        $query = TeachersBio::query();
-        // Check if ID parameter is present in the request
-        if ($request->filled('id')) {
-            $query->where('teacher_id', $request->input('id'));
-        }
     
-        if ($request->filled('name')) {
-            $query->where('name', 'like', '%' . $request->input('name') . '%');
-        }
-    
-        if ($request->filled('subject')) {
-            $query->where('subject', 'like', '%' . $request->input('subject') . '%');
-        }
-
-        $values = $query->get();
-        if ($values->isEmpty()) {
-            return redirect()->route('teacherlist')->with('message', 'No results found.');
-        }
-        return view('teachers.view-teacher', compact('values'));
-    }
     public function editteacher($id) {
         $data = TeachersBio::find($id);
         return view('teachers.profile',compact('data'));
@@ -115,26 +94,6 @@ class TeacherController extends Controller
         ->select('leaves.*', 'teachers_bios.name as name')
         ->get();
         return view('admin.leave_approve',compact('data'));
-    }
-
-    public function leavesearch(Request $request){
-        $query = Leave::query();
-        // Check if ID parameter is present in the request
-        if ($request->filled('id')) {
-            $query->where('teacher_id', $request->input('id'));
-        }
-        if ($request->filled('date')) {
-            $query->where(function ($query) use ($request) {
-            $inputDate = $request->input('date');
-            $query->where('fromdate', $inputDate)
-                  ->orWhere('todate', $inputDate);
-        });
-        }
-        $data = $query->get();
-        if ($data->isEmpty()) {
-            return redirect()->route('leavelist')->with('message', 'No results found.');
-        }
-        return view('admin.leave_approve', compact('data'));
     }
     public function approve($id)
     {

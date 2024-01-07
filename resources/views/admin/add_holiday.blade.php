@@ -7,6 +7,11 @@
 
 @push('bodycontent')
 <div class="card">
+    @if(session('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <span>   {{ session('success') }} </span>
+    </div>
+    @endif
     <div class="card-body">
     <h5 class="mb-3">Add Holiday</h5>
     <form action="addholiday" method="post">
@@ -41,7 +46,7 @@
                 <button type="submit" class="btn btn-info font-medium rounded-pill px-4">
                 <div class="d-flex align-items-center">
                     <i class="ti ti-send me-2 fs-4"></i>
-                    Submit
+                    Add Holiday
                 </div>
                 </button>
             </div>

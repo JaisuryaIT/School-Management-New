@@ -43,6 +43,9 @@
   </div>
   @include('layouts.includes.jquery')
   @stack('javascript')
+  <script>
+    setTimeout(function() {$(".alert").alert('close');}, 3000);
+  </script>
 </body>
 
 </html>

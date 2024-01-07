@@ -121,8 +121,5 @@ $colorIndex = 0; // Index for cycling through colors
 
 @push('javascript')
 <script>
-setTimeout(function() {
-        $(".alert").alert('close');
-}, 3000);
 </script>
 @endpush
