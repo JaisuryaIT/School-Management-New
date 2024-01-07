@@ -34,48 +34,48 @@
     <div class="mb-4 pb-2 align-items-center">
     <h5 class="mb-0">Exams List</h5>
     </div>
-        <div class="table-responsive">
-            <table id="zero_config" class="table border table-striped table-bordered text-nowrap">
-            <thead>
-                <tr>
-                <th>Exam Name</th>
-                <th>Class</th>
-                <th>Subject</th>
-                <th>Start Time</th>
-                <th>End Time</th>
-                <th>Date</th>
-                <th></th>
-                <th></th>
-                <th></th>
-                </tr>
-            </thead>
-            <tbody>
-            @foreach($values as $value)
+    <div class="table-responsive">
+        <table id="zero_config" class="table border table-striped table-bordered text-nowrap">
+        <thead>
             <tr>
-            <td><h5>{{$value->exam_code}}</h5></td>
-            <td>{{$value->class_name}}</td>
-            <td>{{$value->subject_name}}</td>
-            <td>{{$value->start_time}}</td>
-            <td>{{$value->end_time}}</td>
-            <td>{{$value->exam_date}}</td>
-            <td class="text-center">
-                <a href="/marklist/{{$value->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="View Details">
-                    <i class="ti ti-eye fs-7"></i>
-                </a>
-            </td>
-            <td class="text-center">
-                <a href="/editexam/{{$value->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Details">
-                    <i class="ti ti-pencil fs-7"></i>
-                </a>
-            </td>
-            <td class="text-center">
-                <a href="/updateMarks/{{ $value->id }}" class="btn btn-outline-primary me-2 link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Marks">Update</a>
-            </td>
+            <th>Exam Name</th>
+            <th>Class</th>
+            <th>Subject</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Date</th>
+            <th></th>
+            <th></th>
+            <th></th>
             </tr>
-            @endforeach 
-            </tbody>
-            </table>
-        </div>
+        </thead>
+        <tbody>
+        @foreach($values as $value)
+        <tr>
+        <td><h5>{{$value->exam_code}}</h5></td>
+        <td>{{$value->class_name}}</td>
+        <td>{{$value->subject_name}}</td>
+        <td>{{$value->start_time}}</td>
+        <td>{{$value->end_time}}</td>
+        <td>{{$value->exam_date}}</td>
+        <td class="text-center">
+            <a href="/marklist/{{$value->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="View Details">
+                <i class="ti ti-eye fs-7"></i>
+            </a>
+        </td>
+        <td class="text-center">
+            <a href="/editexam/{{$value->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Details">
+                <i class="ti ti-pencil fs-7"></i>
+            </a>
+        </td>
+        <td class="text-center">
+            <a href="/updateMarks/{{ $value->id }}" class="btn btn-outline-primary me-2 link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Marks">Update</a>
+        </td>
+        </tr>
+        @endforeach 
+        </tbody>
+        </table>
+    </div>
 </div>
 </div>
 @endpush
