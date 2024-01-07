@@ -23,7 +23,7 @@ class StudentController extends Controller
             'community' => 'required',
             'caste' => 'required',
             'nationality' => 'required|in:Indian,Others',
-            'mother_tongue' => 'required|in:Tamil,Telungu,Kannada,Others',
+            'mother_tongue' => 'required|in:Tamil,Telugu,Kannada,Others',
             'blood_group' => 'required|in:A+,A-,B+,B-,AB+,AB-,O+,O-,Others',
             'enrollment_number' => 'required',
             'contact_number' => 'required',

@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-3">
             <div class="form-floating mb-3">
-            <select class="form-control select" name="Class">
+            <select class="form-control select" id="class" name="Class">
                 <option>Select Section</option>
                 <option>I</option>
                 <option>II</option>
@@ -83,6 +83,6 @@
 
 @push('javascript')
 <script>
-    
+
 </script>
 @endpush
