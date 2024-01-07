@@ -42,7 +42,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/circulars', [circularController::class, 'circularview'])->name('circularlist');
 
-    // Route::post('/addcircular', [circularController::class, 'circularadd']);
+    Route::post('/addcircular', [circularController::class, 'circularadd']);
 
     // Student
     Route::get('/',function(){return view('index');})->name('home');
@@ -160,7 +160,7 @@ Route::middleware('auth')->group(function () {
     // Route::post('/markattendance', [AttendanceController::class, 'markattendance']);
 
     //Holiday
-    Route::get('/addholiday', function () { return view('admin.add-holiday');});
+    Route::get('/addholiday', function () { return view('admin.add_holiday');});
 
     Route::get('/holidays', [AttendanceController::class, 'viewholiday'])->name('holidaylist');
 

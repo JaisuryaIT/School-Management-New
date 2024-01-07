@@ -30,7 +30,7 @@
         <div class="row">
           <div class="col-6">
             <div class="position-relative">
-              <a href="app-chat.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-chat.svg" alt="" class="img-fluid" width="24" height="24">
@@ -40,7 +40,7 @@
                   <span class="fs-2 d-block text-dark">New messages arrived</span>
                 </div>
               </a>
-              <a href="app-invoice.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-invoice.svg" alt="" class="img-fluid" width="24" height="24">
@@ -50,7 +50,7 @@
                   <span class="fs-2 d-block text-dark">Get latest invoice</span>
                 </div>
               </a>
-              <a href="app-contact2.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-mobile.svg" alt="" class="img-fluid" width="24" height="24">
@@ -60,7 +60,7 @@
                   <span class="fs-2 d-block text-dark">2 Unsaved Contacts</span>
                 </div>
               </a>
-              <a href="app-email.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-message-box.svg" alt="" class="img-fluid" width="24"
@@ -75,7 +75,7 @@
           </div>
           <div class="col-6">
             <div class="position-relative">
-              <a href="page-user-profile.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-cart.svg" alt="" class="img-fluid" width="24" height="24">
@@ -85,7 +85,7 @@
                   <span class="fs-2 d-block text-dark">learn more information</span>
                 </div>
               </a>
-              <a href="app-calendar.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-date.svg" alt="" class="img-fluid" width="24" height="24">
@@ -95,7 +95,7 @@
                   <span class="fs-2 d-block text-dark">Get dates</span>
                 </div>
               </a>
-              <a href="app-contact.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-lifebuoy.svg" alt="" class="img-fluid" width="24" height="24">
@@ -105,7 +105,7 @@
                   <span class="fs-2 d-block text-dark">Add new contact</span>
                 </div>
               </a>
-              <a href="app-notes.html"
+              <a href=""
                 class="d-flex align-items-center pb-9 position-relative text-decoration-none text-decoration-none text-decoration-none text-decoration-none">
                 <div class="bg-light-subtle rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-application.svg" alt="" class="img-fluid" width="24"
@@ -122,7 +122,7 @@
       </div>
       <div class="row align-items-center py-3">
         <div class="col-8">
-          <a class="fw-semibold text-dark d-flex align-items-center lh-1 text-decoration-none" href="#"><iconify-icon
+          <a class="fw-semibold text-dark d-flex align-items-center lh-1 text-decoration-none" href=""><iconify-icon
               icon="solar:question-circle-line-duotone" class="fs-6 me-2"></iconify-icon>Frequently Asked Questions</a>
         </div>
         <div class="col-4">
@@ -139,31 +139,31 @@
       <ul class="">
         <li class="mb-3">
           <a class="fw-semibold text-dark bg-hover-primary text-decoration-none text-decoration-none text-decoration-none text-decoration-none"
-            href="page-pricing.html">Pricing Page</a>
+            href="">Pricing Page</a>
         </li>
         <li class="mb-3">
           <a class="fw-semibold text-dark bg-hover-primary text-decoration-none text-decoration-none text-decoration-none text-decoration-none"
-            href="authentication-login.html">Authentication Design</a>
+            href="">Authentication Design</a>
         </li>
         <li class="mb-3">
           <a class="fw-semibold text-dark bg-hover-primary text-decoration-none text-decoration-none text-decoration-none text-decoration-none"
-            href="authentication-register.html">Register Now</a>
+            href="">Register Now</a>
         </li>
         <li class="mb-3">
           <a class="fw-semibold text-dark bg-hover-primary text-decoration-none text-decoration-none text-decoration-none text-decoration-none"
-            href="authentication-error.html">404 Error Page</a>
+            href="">404 Error Page</a>
         </li>
         <li class="mb-3">
           <a class="fw-semibold text-dark bg-hover-primary text-decoration-none text-decoration-none text-decoration-none text-decoration-none"
-            href="app-notes.html">Notes App</a>
+            href="">Notes App</a>
         </li>
         <li class="mb-3">
           <a class="fw-semibold text-dark bg-hover-primary text-decoration-none text-decoration-none text-decoration-none text-decoration-none"
-            href="page-user-profile.html">User Application</a>
+            href="">User Application</a>
         </li>
         <li class="mb-3">
           <a class="fw-semibold text-dark bg-hover-primary text-decoration-none text-decoration-none text-decoration-none text-decoration-none"
-            href="page-account-settings.html">Account Settings</a>
+            href="">Account Settings</a>
         </li>
       </ul>
     </div>
@@ -175,13 +175,13 @@
     <!-- end apps Dropdown -->
     <!-- ------------------------------- -->
     <li class="nav-item dropdown-hover d-none d-lg-block me-2">
-      <a class="nav-link" href="app-chat.html">Chat</a>
+      <a class="nav-link" href="">Chat</a>
     </li>
     <li class="nav-item dropdown-hover d-none d-lg-block me-2">
-      <a class="nav-link" href="app-calendar.html">Calendar</a>
+      <a class="nav-link" href="">Calendar</a>
     </li>
     <li class="nav-item dropdown-hover d-none d-lg-block">
-      <a class="nav-link" href="app-email.html">Email</a>
+      <a class="nav-link" href="">Email</a>
     </li>
   </ul>
 
@@ -192,7 +192,7 @@
 
 
   <a class="navbar-toggler nav-icon-hover p-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse"
-    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="p-2">
       <i class="ti ti-dots fs-7"></i>
     </span>
@@ -200,7 +200,7 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <div class="d-flex align-items-center justify-content-between">
       <a href="javascript:void(0)" class="nav-link d-flex d-lg-none align-items-center justify-content-center"
-        type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilenavbar"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="mobilenavbar"
         aria-controls="offcanvasWithBothOptions">
         <div class="nav-icon-hover-bg rounded-circle ">
           <i class="ti ti-align-justified fs-7"></i>
@@ -225,75 +225,75 @@
   <h5 class="mb-0 fs-5 p-1">Quick Page Links</h5>
   <ul class="list mb-0 py-2">
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
@@ -308,12 +308,6 @@
         <li class="nav-item dropdown d-none d-lg-block">
           <a class="nav-link position-relative" href="javascript:void(0)" id="drop3" data-bs-toggle="dropdown"
             aria-expanded="false">
-            <form class="nav-link position-relative">
-              <input type="text" class="form-control rounded-3 py-2 ps-5 text-dark"
-                placeholder="Try to searching ...">
-              <iconify-icon icon="solar:magnifer-linear"
-                class="text-dark position-absolute top-50 start-0 translate-middle-y text-dark ms-3"></iconify-icon>
-            </form>
           </a>
           <div class="dropdown-menu content-dd dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop3">
             <!--  Search Bar -->
@@ -328,75 +322,75 @@
   <h5 class="mb-0 fs-5 p-1">Quick Page Links</h5>
   <ul class="list mb-0 py-2">
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
@@ -647,7 +641,7 @@
 
               <div class="d-none d-sm-block">
                 <h6 class="fw-bold fs-4 mb-1 profile-name">
-                  Mike Nielsen
+                  Vrinvrog
                 </h6>
                 <p class="fs-3 lh-base mb-0 profile-subtext">
                   Admin
@@ -667,17 +661,17 @@
   <div class="d-flex align-items-center mx-7 py-9 border-bottom">
     <img src="{{asset('assets//images/profile/user-6.jpg')}}" alt="user" width="90" class="rounded-circle" />
     <div class="ms-4">
-      <h4 class="mb-0 fs-5 fw-normal">Mike Nielsen</h4>
+      <h4 class="mb-0 fs-5 fw-normal">Vrinvrog</h4>
       <span class="text-muted">super admin</span>
       <p class="text-muted mb-0 mt-1 d-flex align-items-center">
         <iconify-icon icon="solar:mailbox-line-duotone" class="fs-4 me-1"></iconify-icon>
-        info@spike.com
+        vrinvrog@gmail.com
       </p>
     </div>
   </div>
 
   <div class="message-body">
-    <a href="page-user-profile.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+    <a href="" class="dropdown-item px-7 d-flex align-items-center py-6">
       <span class="btn px-3 py-2 bg-info-subtle rounded-1 text-info shadow-none">
         <iconify-icon icon="solar:wallet-2-line-duotone" class="fs-7"></iconify-icon>
       </span>
@@ -689,7 +683,7 @@
       </div>
     </a>
 
-    <a href="app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+    <a href="" class="dropdown-item px-7 d-flex align-items-center py-6">
       <span class="btn px-3 py-2 bg-success-subtle rounded-1 text-success shadow-none">
         <iconify-icon icon="solar:shield-minimalistic-line-duotone" class="fs-7"></iconify-icon>
       </span>
@@ -699,7 +693,7 @@
       </div>
     </a>
 
-    <a href="app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+    <a href="" class="dropdown-item px-7 d-flex align-items-center py-6">
       <span class="btn px-3 py-2 bg-danger-subtle rounded-1 text-danger shadow-none">
         <iconify-icon icon="solar:card-2-line-duotone" class="fs-7"></iconify-icon>
       </span>
@@ -712,7 +706,7 @@
   </div>
 
   <div class="py-6 px-7 mb-1">
-    <a href="authentication-login.html" class="btn btn-primary w-100">Log Out</a>
+    <a href="/logout" class="btn btn-primary w-100">Log Out</a>
   </div>
 </div>
           </div>
@@ -748,7 +742,7 @@
           </a>
           <ul aria-expanded="false" class="collapse first-level my-3">
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-chat.svg" alt="" class="img-fluid" width="24" height="24" />
                 </div>
@@ -759,7 +753,7 @@
               </a>
             </li>
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-invoice.svg" alt="" class="img-fluid" width="24" height="24" />
                 </div>
@@ -770,7 +764,7 @@
               </a>
             </li>
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-mobile.svg" alt="" class="img-fluid" width="24" height="24" />
                 </div>
@@ -781,7 +775,7 @@
               </a>
             </li>
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-message-box.svg" alt="" class="img-fluid" width="24"
                     height="24" />
@@ -793,7 +787,7 @@
               </a>
             </li>
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-cart.svg" alt="" class="img-fluid" width="24" height="24" />
                 </div>
@@ -804,7 +798,7 @@
               </a>
             </li>
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-date.svg" alt="" class="img-fluid" width="24" height="24" />
                 </div>
@@ -815,7 +809,7 @@
               </a>
             </li>
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-lifebuoy.svg" alt="" class="img-fluid" width="24"
                     height="24" />
@@ -827,7 +821,7 @@
               </a>
             </li>
             <li class="sidebar-item py-2">
-              <a href="#" class="d-flex align-items-center">
+              <a href="" class="d-flex align-items-center">
                 <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
                   <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/svgs/icon-dd-application.svg" alt="" class="img-fluid" width="24"
                     height="24" />
@@ -843,43 +837,43 @@
                 <h5 class="fs-5 fw-semibold">Quick Links</h5>
               </li>
               <li class="sidebar-item py-2">
-                <a class="fw-semibold text-dark" href="#">Pricing Page</a>
+                <a class="fw-semibold text-dark" href="">Pricing Page</a>
               </li>
               <li class="sidebar-item py-2">
-                <a class="fw-semibold text-dark" href="#">Authentication Design</a>
+                <a class="fw-semibold text-dark" href="">Authentication Design</a>
               </li>
               <li class="sidebar-item py-2">
-                <a class="fw-semibold text-dark" href="#">Register Now</a>
+                <a class="fw-semibold text-dark" href="">Register Now</a>
               </li>
               <li class="sidebar-item py-2">
-                <a class="fw-semibold text-dark" href="#">404 Error Page</a>
+                <a class="fw-semibold text-dark" href="">404 Error Page</a>
               </li>
               <li class="sidebar-item py-2">
-                <a class="fw-semibold text-dark" href="#">Notes App</a>
+                <a class="fw-semibold text-dark" href="">Notes App</a>
               </li>
               <li class="sidebar-item py-2">
-                <a class="fw-semibold text-dark" href="#">User Application</a>
+                <a class="fw-semibold text-dark" href="">User Application</a>
               </li>
               <li class="sidebar-item py-2">
-                <a class="fw-semibold text-dark" href="#">Account Settings</a>
+                <a class="fw-semibold text-dark" href="">Account Settings</a>
               </li>
             </ul>
           </ul>
         </li>
         <li class="sidebar-item">
-          <a class="sidebar-link gap-2" href="#" aria-expanded="false">
+          <a class="sidebar-link gap-2" href="" aria-expanded="false">
             <iconify-icon icon="solar:chat-round-unread-line-duotone" class="fs-6 text-dark"></iconify-icon>
             <span class="hide-menu">Chat</span>
           </a>
         </li>
         <li class="sidebar-item">
-          <a class="sidebar-link gap-2" href="#" aria-expanded="false">
+          <a class="sidebar-link gap-2" href="" aria-expanded="false">
             <iconify-icon icon="solar:calendar-add-line-duotone" class="fs-6 text-dark"></iconify-icon>
             <span class="hide-menu">Calendar</span>
           </a>
         </li>
         <li class="sidebar-item">
-          <a class="sidebar-link gap-2" href="#" aria-expanded="false">
+          <a class="sidebar-link gap-2" href="" aria-expanded="false">
             <iconify-icon icon="solar:mailbox-line-duotone" class="fs-6 text-dark"></iconify-icon>
             <span class="hide-menu">Email</span>
           </a>
@@ -892,14 +886,14 @@
               <nav class="navbar navbar-expand-xl container-fluid p-0">
   <ul class="navbar-nav">
     <li class="nav-item d-none d-xl-block">
-      <a href="index.html" class="text-nowrap nav-link">
+      <a href="/" class="text-nowrap nav-link">
         <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/logo-light.svg" class="dark-logo" width="180" alt="" />
         <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/logo-dark.svg" class="light-logo" width="180" alt="" />
       </a>
     </li>
   </ul>
   <a class="navbar-toggler nav-icon-hover p-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse"
-    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="p-2">
       <i class="ti ti-dots fs-7"></i>
     </span>
@@ -907,7 +901,7 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <div class="d-flex align-items-center justify-content-between">
       <a href="javascript:void(0)" class="nav-link d-flex d-lg-none align-items-center justify-content-center"
-        type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilenavbar"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="mobilenavbar"
         aria-controls="offcanvasWithBothOptions">
         <div class="nav-icon-hover-bg rounded-circle ">
           <i class="ti ti-align-justified fs-7"></i>
@@ -932,75 +926,75 @@
   <h5 class="mb-0 fs-5 p-1">Quick Page Links</h5>
   <ul class="list mb-0 py-2">
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
@@ -1035,75 +1029,75 @@
   <h5 class="mb-0 fs-5 p-1">Quick Page Links</h5>
   <ul class="list mb-0 py-2">
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Modern</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard1</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Dashboard</span>
         <span class="fs-3 text-muted d-block">/dashboards/dashboard2</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Contacts</span>
         <span class="fs-3 text-muted d-block">/apps/contacts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Posts</span>
         <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Detail</span>
         <span
           class="fs-3 text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
       </a>
     </li>
     <li class="p-1 mb-1 bg-hover-light-black">
-      <a href="#">
+      <a href="">
         <span class="fs-3 text-dark fw-normal d-block">Shop</span>
         <span class="fs-3 text-muted d-block">/apps/ecommerce/shop</span>
       </a>
@@ -1354,7 +1348,7 @@
 
               <div class="d-none d-sm-block">
                 <h6 class="fw-bold fs-4 mb-1 profile-name">
-                  Mike Nielsen
+                  Vrinvrog
                 </h6>
                 <p class="fs-3 lh-base mb-0 profile-subtext">
                   Admin
@@ -1374,17 +1368,17 @@
   <div class="d-flex align-items-center mx-7 py-9 border-bottom">
     <img src="{{asset('assets//images/profile/user-6.jpg')}}" alt="user" width="90" class="rounded-circle" />
     <div class="ms-4">
-      <h4 class="mb-0 fs-5 fw-normal">Mike Nielsen</h4>
+      <h4 class="mb-0 fs-5 fw-normal">Vrinvrog</h4>
       <span class="text-muted">super admin</span>
       <p class="text-muted mb-0 mt-1 d-flex align-items-center">
         <iconify-icon icon="solar:mailbox-line-duotone" class="fs-4 me-1"></iconify-icon>
-        info@spike.com
+        vrinvrog@gmail.com
       </p>
     </div>
   </div>
 
   <div class="message-body">
-    <a href="page-user-profile.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+    <a href="" class="dropdown-item px-7 d-flex align-items-center py-6">
       <span class="btn px-3 py-2 bg-info-subtle rounded-1 text-info shadow-none">
         <iconify-icon icon="solar:wallet-2-line-duotone" class="fs-7"></iconify-icon>
       </span>
@@ -1396,7 +1390,7 @@
       </div>
     </a>
 
-    <a href="app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+    <a href="/" class="dropdown-item px-7 d-flex align-items-center py-6">
       <span class="btn px-3 py-2 bg-success-subtle rounded-1 text-success shadow-none">
         <iconify-icon icon="solar:shield-minimalistic-line-duotone" class="fs-7"></iconify-icon>
       </span>
@@ -1406,7 +1400,7 @@
       </div>
     </a>
 
-    <a href="app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+    <a href="/" class="dropdown-item px-7 d-flex align-items-center py-6">
       <span class="btn px-3 py-2 bg-danger-subtle rounded-1 text-danger shadow-none">
         <iconify-icon icon="solar:card-2-line-duotone" class="fs-7"></iconify-icon>
       </span>
@@ -1419,7 +1413,7 @@
   </div>
 
   <div class="py-6 px-7 mb-1">
-    <a href="authentication-login.html" class="btn btn-primary w-100">Log Out</a>
+    <a href="/logout" class="btn btn-primary w-100">Log Out</a>
   </div>
 </div>
           </div>
