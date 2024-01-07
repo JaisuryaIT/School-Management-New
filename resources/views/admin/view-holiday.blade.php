@@ -42,6 +42,7 @@
                 <td><h6>{{$values->number_of_days}}</h6></td>
                 </tr>
                 @endforeach
+            </tbody>
             </table>
         </div>
         </div>
