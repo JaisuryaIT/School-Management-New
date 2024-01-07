@@ -164,5 +164,5 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/holidays', [AttendanceController::class, 'viewholiday'])->name('holidaylist');
 
-    // Route::post('/addholiday', [AttendanceController::class, 'addholiday']);
+    Route::post('/addholiday', [AttendanceController::class, 'addholiday']);
 });

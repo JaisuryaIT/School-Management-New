@@ -102,7 +102,7 @@ $colorIndex = 0; // Index for cycling through colors
     @foreach($values as $values)
     <div class="col-md-4 single-note-item all-category note-important">
     <div class="card card-body">
-        <span class="side-stick" style="background-color: {{$colors[$colorIndex]}}"></span>
+        <span class="side-stick" style="background-color: <?php echo $colors[$colorIndex]; ?>"></span>
         <h6 class="note-title text-truncate w-75 mb-0" data-noteHeading="Go for lunch">{{$values->title}}</h6>
         <p class="note-date fs-2">{{$values->published_at}}</p>
         <div class="note-content">
@@ -111,8 +111,7 @@ $colorIndex = 0; // Index for cycling through colors
         </div>
     </div>
     @php
-    // Move to the next color (cycle through colors)
-    $colorIndex = ($colorIndex + 1) % count($colors);
+        $colorIndex = ($colorIndex + 1) % count($colors);
     @endphp
     @endforeach
     </div>
