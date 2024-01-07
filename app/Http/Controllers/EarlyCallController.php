@@ -19,7 +19,7 @@ class EarlyCallController extends Controller
             'reason' => 'required'
         ]);
         early_call::create($data);
-        return redirect('/earlycallentry')->with('success', 'Entry Created Successfully');
+        return redirect()->back()->with('success', 'Entry Created Successfully');
     }
 
     public function view(){

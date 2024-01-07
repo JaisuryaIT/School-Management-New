@@ -69,7 +69,10 @@ class TeacherController extends Controller
         return redirect()->route('teacherlist')->with('message','Teacher Deleted Successfully');
     }
     public function leaveapply($teacher_id) {
-        $data = Leave::where('teacher_id', $teacher_id)->get();
+        $data = Leave::leftJoin('teachers_bios', 'leaves.teacher_id', '=', 'teachers_bios.id')
+        ->where('leaves.teacher_id', $teacher_id)
+        ->select('leaves.*', 'teachers_bios.name as name')
+        ->get();
         return view('teachers.leave',compact('teacher_id','data'));
     }
     public function leaveadd(Request $request)

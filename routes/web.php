@@ -55,7 +55,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/earlycallentry', [EarlyCallController::class, 'view']);
 
-    Route::post('/earlycallentry', [EarlyCallController::class, 'add']);
+    Route::post('/earlycall', [EarlyCallController::class, 'add']);
 
     Route::post('/addstudent', [StudentController::class, 'add']);
 

@@ -59,7 +59,7 @@
                 <td>{{$values->contact_number}}</td>
                 <td class="text-center">
                 <a href="/leaveapply/{{$values->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Leave Apply">
-                    <i class="ti ti-eye fs-7"></i>
+                    <i class="ti ti-calendar fs-7"></i>
                 </a>
                 </td>
                 <td class="text-center">
@@ -69,6 +69,7 @@
                 </td>
             </tr>
             @endforeach
+        </tbody>
         </table>
     </div>
 </div>
