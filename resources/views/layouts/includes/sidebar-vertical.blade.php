@@ -20,8 +20,8 @@
       <!-- Apps -->
       <!-- ============================= -->
       <li class="sidebar-item">
-        <a class="sidebar-link has-arrow success-hover-bg" href="#" aria-expanded="false">
-          <span class="aside-icon p-2 bg-success-subtle rounded-1">
+        <a class="sidebar-link has-arrow info-hover-bg" href="#" aria-expanded="false">
+          <span class="aside-icon p-2 bg-info-subtle rounded-1">
             <iconify-icon icon="ic:baseline-admin-panel-settings" class="fs-6"></iconify-icon>
           </span>
           <span class="hide-menu ps-1">Admin</span>
@@ -168,11 +168,22 @@
       <!-- Attendance -->
       <!-- =================== -->
       <li class="sidebar-item">
-        <a class="sidebar-link sidebar-link info-hover-bg" href="/selectclass" aria-expanded="false">
-          <span class="aside-icon p-2 bg-info-subtle rounded-1">
+        <a class="sidebar-link sidebar-link success-hover-bg" href="/selectclass" aria-expanded="false">
+          <span class="aside-icon p-2 bg-success-subtle rounded-1">
             <iconify-icon icon="mdi:calendar" class="fs-6"></iconify-icon>
           </span>
           <span class="hide-menu ps-1">Attendance</span>
+        </a>
+      </li>
+      <!-- =================== -->
+      <!-- Fees -->
+      <!-- =================== -->
+      <li class="sidebar-item">
+        <a class="sidebar-link sidebar-link primary-hover-bg" href="/fees" aria-expanded="false">
+          <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+            <iconify-icon icon="mdi-currency-usd-circle" class="fs-6"></iconify-icon>
+          </span>
+          <span class="hide-menu ps-1">Fees</span>
         </a>
       </li>
   </nav>
