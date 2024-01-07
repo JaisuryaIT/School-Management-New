@@ -19,25 +19,25 @@
         <div class="row">
         <div class="col-md-3">
             <div class="form-floating mb-3">
-            <input type="text" class="form-control" name="holiday_name" id="tb-fname" placeholder="Enter Name here" />
+            <input type="text" class="form-control" name="holiday_name" id="tb-fname"/>
             <label for="tb-fname">Holiday Name</label>
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-floating mb-3">
-            <input type="date" class="form-control" name="fromdate" id="tb-email" placeholder="name@example.com" />
+            <input type="date" class="form-control" name="fromdate" id="tb-email"/>
             <label for="tb-email">From Date</label>
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-floating">
-            <input type="date" class="form-control" name="todate" id="tb-pwd" placeholder="Password" />
+            <input type="date" class="form-control" name="todate" id="tb-pwd"/>
             <label for="tb-pwd">To Date</label>
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-floating">
-            <input type="integer" class="form-control" name="number_of_days" id="tb-cpwd" placeholder="Password" />
+            <input type="integer" class="form-control" name="number_of_days" id="tb-cpwd" />
             <label for="tb-cpwd">Number Of Days</label>
             </div>
         </div>
