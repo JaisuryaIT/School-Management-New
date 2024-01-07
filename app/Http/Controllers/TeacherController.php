@@ -111,7 +111,9 @@ class TeacherController extends Controller
         return redirect()->back()->with('success','Leave Created Successfully');
     }
     public function leaveview() {
-        $data = Leave::all();
+        $data = Leave::leftJoin('teachers_bios', 'leaves.teacher_id', '=', 'teachers_bios.id')
+        ->select('leaves.*', 'teachers_bios.name as name')
+        ->get();
         return view('admin.leave_approve',compact('data'));
     }
 

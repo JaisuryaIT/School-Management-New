@@ -16,9 +16,6 @@
   </div>
 </div>
 <div class="row">
-    <!-- ---------------------
-                        start Zero Configuration
-                    ---------------- -->
     <div class="card">
         <div class="card-body">
         <div class="mb-2">

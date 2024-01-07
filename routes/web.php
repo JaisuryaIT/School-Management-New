@@ -87,11 +87,11 @@ Route::middleware('auth')->group(function () {
 
     // Route::post('/leavesearch', [TeacherController::class, 'leavesearch']);
 
-    // Route::post('addleave', [TeacherController::class, 'leaveadd'])->name('leave.store');
+    Route::post('addleave', [TeacherController::class, 'leaveadd'])->name('leave.store');
 
-    // Route::post('approve/{id}', [TeacherController::class, 'approve'])->name('update');
+    Route::post('approve/{id}', [TeacherController::class, 'approve'])->name('update');
 
-    // Route::post('reject/{id}', [TeacherController::class, 'reject'])->name('reject');
+    Route::post('reject/{id}', [TeacherController::class, 'reject'])->name('reject');
 
     // Exams
     Route::get('/addexam', [ExamController::class, 'view']);
