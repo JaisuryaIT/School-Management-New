@@ -23,7 +23,7 @@ class EarlyCallController extends Controller
     }
 
     public function view(){
-        $values = Classes::select('ClassID')->get();
+        $values = Classes::select('ClassID','id')->get();
         $calls = early_call::orderBy('date', 'desc')->get();
         return view('student.early_call',compact('values','calls'));
     }

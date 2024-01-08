@@ -14,7 +14,8 @@
 <div class="card">
     <div class="card-body">
     <h5 class="mb-3">Add Exam</h5>
-    <form>
+    <form action="{{ route('exam.store') }}" method="post" enctype="multipart/form-data">
+    @csrf
         <div class="row">
         <div class="col-md-4">
             <div class="form-floating mb-3">
@@ -86,7 +87,7 @@
                 <button type="submit" class="btn btn-info font-medium rounded-pill px-4">
                 <div class="d-flex align-items-center">
                     <i class="ti ti-send me-2 fs-4"></i>
-                    Add Class
+                    Add Exam
                 </div>
                 </button>
             </div>

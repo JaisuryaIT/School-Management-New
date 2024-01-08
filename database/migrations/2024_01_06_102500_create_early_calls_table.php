@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->integer('class_id');
-            $table->date('entry_date');
-            $table->time('entry_time');
+            $table->date('date');
+            $table->time('time');
             $table->string('reason');
         });
     }

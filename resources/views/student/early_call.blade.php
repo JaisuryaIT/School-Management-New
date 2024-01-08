@@ -14,7 +14,7 @@
 @endif
     <div class="card-body">
     <h5 class="mb-3">Early Calling Register</h5>
-    <form action="earlycall" method="post">
+    <form action="/earlycall" method="post">
     @csrf
         <div class="row">
         <div class="col-md-4">
