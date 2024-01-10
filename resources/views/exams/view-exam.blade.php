@@ -44,9 +44,7 @@
             <th>Start Time</th>
             <th>End Time</th>
             <th>Date</th>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -62,13 +60,9 @@
             <a href="/marklist/{{$value->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="View Details">
                 <i class="ti ti-eye fs-7"></i>
             </a>
-        </td>
-        <td class="text-center">
             <a href="/editexam/{{$value->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Details">
                 <i class="ti ti-pencil fs-7"></i>
             </a>
-        </td>
-        <td class="text-center">
             <a href="/updateMarks/{{ $value->id }}" class="btn btn-outline-primary me-2 link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Update Marks">Update</a>
         </td>
         </tr>

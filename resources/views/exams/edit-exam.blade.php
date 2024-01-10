@@ -143,6 +143,12 @@
                     Update Exam Details
                 </div>
                 </button>
+                <button type="button" class="btn btn-danger font-medium rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#deletemodal">
+                <div class="d-flex align-items-center">
+                    <i class="ti ti-send me-2 fs-4"></i>
+                    Delete Exam
+                </div>
+                </button>
             </div>
         </div>
         </div>
@@ -156,9 +162,27 @@
         </button>
     </div>
     </div>
-    <!-- /.modal-content -->
 </div>
-<!-- /.modal-dialog -->
+</div>
+<div class="modal fade" id="deletemodal" tabindex="-1" aria-labelledby="vertical-center-modal"
+                      aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content modal-filled bg-light-warning">
+    <div class="modal-body p-4">
+    <div class="text-center text-warning">
+        <i class="ti ti-alert-octagon fs-7"></i>
+        <h5 class="mt-2">Do you want to Delete the Exam?</h5>
+        <form action="{{url('deleteexam',$data->id)}}" method="post">
+        @csrf
+        <button type="submit" class="btn btn-danger my-2" data-bs-dismiss="modal">
+        Delete
+        </button>
+        </form>
+        <button type="button" class="btn btn-light my-2" data-bs-dismiss="modal">
+        Close
+        </button>
+    </div>
+    </div>
 </div>
 @endpush
 @push('javascript')

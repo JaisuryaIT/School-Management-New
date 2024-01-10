@@ -44,7 +44,7 @@
             <th>Work Experience</th>
             <th>Salary</th>
             <th>Contact Number</th>
-            <th></th>
+            <th>Actions</th>
         </tr>
         </thead>
         <tbody>

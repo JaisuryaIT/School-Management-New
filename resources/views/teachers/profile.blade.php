@@ -283,7 +283,6 @@
     </div>
     </div>
 </div>
-<!-- /.modal-content -->
 </div>
 </div>
 <div class="modal fade" id="editmodel" tabindex="-1"

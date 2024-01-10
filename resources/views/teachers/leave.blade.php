@@ -85,7 +85,7 @@
         <th>From Date</th>
         <th>To Date</th>
         <th>Reason</th>
-        <th></th>
+        <th>Status</th>
     </tr>
     </thead>
     <tbody>

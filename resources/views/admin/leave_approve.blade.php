@@ -33,7 +33,7 @@
         <th>From Date</th>
         <th>To Date</th>
         <th>Reason</th>
-        <th></th>
+        <th>Action</th>
         </tr>
         <!-- end row -->
         </thead>

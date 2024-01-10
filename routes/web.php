@@ -74,7 +74,7 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/updateteacher/{id}', [TeacherController::class, 'updateteacher'])->name('updateteacher');
     
-    Route::post('/deleteteacher/{id}', [TeacherController::class, 'deleteteacher']);
+    Route::post('/deleteteacher/{id}', [TeacherController::class, 'deleteteacher'])->name('deleteteacher');
 
     //Leave
     Route::get('/leaveapply/{teacher_id}', [TeacherController::class, 'leaveapply']);
@@ -102,7 +102,7 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/updateexam/{id}', [ExamController::class, 'updateexam'])->name('updateexam');
 
-    Route::post('/deleteexam/{id}', [ExamController::class, 'deleteexam']);
+    Route::post('/deleteexam/{id}', [ExamController::class, 'deleteexam'])->name('deleteexam');
 
     Route::post('/updateMarks/{id}',[ExamController::class,'updateMark']);
     
@@ -119,7 +119,7 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/updateclass/{id}', [ClassesController::class, 'updateclass']);
 
-    Route::post('/deleteclass/{id}', [ClassesController::class, 'deleteclass']);
+    Route::post('/deleteclass/{id}', [ClassesController::class, 'deleteclass'])->name('deleteclass');
 
     Route::post('studentclassadd/{id_student}', [ClassesController::class, 'studentclassadd']);
 

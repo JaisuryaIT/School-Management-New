@@ -45,14 +45,14 @@
             <th>Father Name</th>
             <th>Mobile Number</th>
             <th>Enrollment Number</th>
-            <th></th>
+            <th>Action</th>
         </tr>
         </thead>
         <tbody>
         @foreach($values as $values)
         <tr>
             <td><h6>{{$values->id}}</h6></td>
-            <td><h6 class="table-avatar">{{$values->name}}</h6></td>
+            <td><h6>{{$values->name}}</h6></td>
             <td>{{$values->batch}}</td>
             <td>{{$values->dob}}</td>
             <td>{{$values->father_name}}</td>

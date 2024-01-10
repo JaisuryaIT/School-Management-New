@@ -94,7 +94,7 @@ class ClassesController extends Controller
             $student->fees = $request->input('fees');
             $student->save();
         }
-        return redirect()->route('classlist')->with('success','Class Updated Successfully');
+        return redirect()->back()->with('success','Class Updated Successfully');
     }
 
     public function deleteclass($id){

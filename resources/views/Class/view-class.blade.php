@@ -41,8 +41,7 @@
     <th class="text-center">Class Name</th>
     <th class="text-center">Class</th>
     <th class="text-center">Class Section</th>
-    <th></th>
-    <th></th>
+    <th class="text-center">Actions</th>
     </tr>
     </thead>
     <tbody>
@@ -55,8 +54,6 @@
         <a href="/classstudents/{{$values->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="View Details">
         <i class="ti ti-eye fs-7"></i>
         </a>
-    </td>
-    <td class="text-center" >
         <a href="/editclass/{{$values->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Details">
         <i class="ti ti-pencil fs-7"></i>
         </a>
