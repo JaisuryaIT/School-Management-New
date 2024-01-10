@@ -6,19 +6,24 @@
 @endpush
 
 @push('bodycontent')
+@if(session('success'))
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+<span>   {{ session('success') }} </span>
+</div>
+@endif 
+<div class="card shadow-none position-relative overflow-hidden mb-4">
+  <div class="card-body d-flex align-items-center justify-content-between p-4">
+    <h4 class="fw-semibold mb-0">Exam Info</h4>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <button class="btn btn-primary w-100 justify-content-center me-2 d-flex align-items-center mb-3 mb-sm-0"
+        data-bs-toggle="modal" data-bs-target="#editmodal">Edit Exam Info</button>
+      </ol>
+    </nav>
+  </div>
+</div>
 <div class="card">
     <div class="card-body">
-    <div class="heading-layout1">
-        <div class="row align-items-center">
-            <div class="col">
-                <h3 class="page-title">Exam Info</h3>
-            </div>
-            <div class="col-auto text-end float-end ms-auto download-grp">
-                <button class="btn btn-primary w-100 justify-content-center me-2 d-flex align-items-center mb-3 mb-sm-0"
-                data-bs-toggle="modal" data-bs-target="#editmodal">Edit Exam Info</button>
-            </div>
-        </div>
-    </div>
     <div class="single-info-details">
         <div class="item-content">
             <div class="info-table table-responsive">
@@ -76,8 +81,8 @@
             <select class="form-control select" name="class_id">
                 <option>Select Class</option>
                 @foreach($classes as $class)
-                <option value="{{ $class->id }}">{{$class->ClassID}}</option>         
-                @endforeach  
+                    <option value="{{ $class->id }}" {{$data->class_id === $class->id ? 'selected' : ''}}>{{$class->ClassID}}</option>         
+                @endforeach
             </select>
             <label for="tb-fname">Class</label>
             </div>
@@ -87,8 +92,8 @@
             <select class="form-control select" name="subject_code">
                 <option>Select Subject</option>
                 @foreach($subjects as $subject)
-                <option value="{{ $subject->subject_code }}">{{$subject->subject_name}}</option>         
-                @endforeach  
+                    <option value="{{ $subject->subject_code }}" {{$data->subject_code === $subject->subject_code ? 'selected' : ''}}>{{$subject->subject_name}}</option>         
+                @endforeach    
             </select>
             <label for="tb-email">Subject</label>
             </div>
@@ -97,36 +102,36 @@
             <div class="form-floating">
             <select class="form-control select" name="type">
                 <option>Select Type</option>
-                <option value="weekly">Weekly</option>
-                <option value="monthly">Monthly</option>
-                <option value="cycle">Cycle</option>
-                <option value="term">Term</option>
-                <option value="final">Final</option>
+                <option value="weekly" {{ $data->type === 'weekly' ? 'selected' : '' }}>Weekly</option>
+                <option value="monthly" {{ $data->type === 'monthly' ? 'selected' : '' }}>Monthly</option>
+                <option value="cycle" {{ $data->type === 'cycle' ? 'selected' : '' }}>Cycle</option>
+                <option value="term" {{ $data->type === 'term' ? 'selected' : '' }}>Term</option>
+                <option value="final" {{ $data->type === 'final' ? 'selected' : '' }}>Final</option>
             </select>
             <label for="tb-pwd">Type</label>
             </div>
         </div>
         <div class="col-md-4">
             <div class="form-floating">
-            <input type="number" name="maximum_mark" class="form-control" id="tb-cpwd"/>
+            <input type="number" name="maximum_mark" class="form-control" id="tb-cpwd" value="{{$data->maximum_mark}}"/>
             <label for="tb-cpwd">Maximum Mark</label>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
             <div class="form-floating">
-            <input type="time" name="start_time" class="form-control" id="tb-cpwd"/>
+            <input type="time" name="start_time" class="form-control" id="tb-cpwd" value="{{$data->start_time}}"/>
             <label for="tb-cpwd">Start Time</label>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
             <div class="form-floating">
-            <input type="time" name="end_time" class="form-control" id="tb-cpwd"/>
+            <input type="time" name="end_time" class="form-control" id="tb-cpwd" value="{{$data->end_time}}"/>
             <label for="tb-cpwd">End Time</label>
             </div>
         </div>
         <div class="col-md-4">
             <div class="form-floating">
-            <input type="date" name="exam_date" class="form-control" id="tb-cpwd"/>
+            <input type="date" name="exam_date" class="form-control" id="tb-cpwd" value="{{$data->exam_date}}"/>
             <label for="tb-cpwd">Exam Date</label>
             </div>
         </div>

@@ -405,7 +405,7 @@ aria-labelledby="bs-example-modal-lg" aria-hidden="true">
                 <button type="submit" class="btn btn-info font-medium rounded-pill px-4">
                 <div class="d-flex align-items-center">
                     <i class="ti ti-send me-2 fs-4"></i>
-                    Edit Teacher Details
+                    Update Teacher Details
                 </div>
                 </button>
             </div>

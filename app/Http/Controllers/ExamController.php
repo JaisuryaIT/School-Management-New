@@ -179,7 +179,7 @@ class ExamController extends Controller
         $data->exam_date = $request->input('exam_date');
         $data->type = $request->input('type');
         $data->save();
-        return redirect()->route('examlist')->with('success', 'Exam Updated Successfully');
+        return redirect()->back()->with('success', 'Exam Details Updated Successfully');
     }
 
 }
