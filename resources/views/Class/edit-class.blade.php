@@ -19,10 +19,10 @@
             <button class="btn btn-primary w-100 justify-content-center me-2 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editmodal">Edit Class Info</button>
             </li>
         <li class="col-sm-4 mb-3 mb-sm-0">
-        <button class="btn btn-primary w-100 justify-content-center me-2 d-flex" onclick="AddStd()" id="AddStd" class="btn btn-primary" value="Add Student">Add Students</button>
+        <button class="btn btn-success w-100 justify-content-center me-2 d-flex" onclick="AddStd()" id="AddStd" class="btn btn-primary">Add Students</button>
         </li>
         <li class="col-sm-4">
-        <button class="btn btn-primary w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary" value="Assign Teacher">Assign Teacher</button>
+        <button class="btn btn-indigo w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary">Assign Teacher</button>
         </li>
         </div>
       </ol>
@@ -59,7 +59,7 @@
 </div>
 </div>
 </div>
-<div class="hideEdit m-b-30" id="SearchStudent">
+<div class="hideEdit" id="SearchStudent">
 <div class="card">
 <div class="card-body">
     <div class="mb-4 pb-2 align-items-center">
@@ -99,7 +99,7 @@
 </div>
 </div>
 </div>
-<div class="hideEdit m-b-30" id="SearchTeacher">
+<div class="hideEdit" id="SearchTeacher">
 <div class="card">
 <div class="card-body">
     <div class="mb-4 pb-2 align-items-center">
@@ -269,6 +269,5 @@ document.getElementById("AddTea").addEventListener('click', function() {
         document.getElementById("AddTea").textContent = 'Assign Teacher'
     }
 });
-
 </script>
 @endpush
