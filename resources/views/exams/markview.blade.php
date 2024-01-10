@@ -15,18 +15,12 @@
     <nav aria-label="breadcrumb" style="justify-content: space-between;">
       <ol class="breadcrumb mb-0">
       <div class="row">
-            @if($values->isNotEmpty())
             <li class="col-sm-6 mb-3 mb-sm-0">
-            <button class="btn btn-indigo w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddStd()" id="AddStd" class="btn btn-primary">View Marklist</button>
+            <button class="btn btn-indigo w-100 justify-content-center me-2 d-flex align-items-center" onclick="" id="AddStd" class="btn btn-primary">View Marklist</button>
             </li>
             <li class="col-sm-6 mb-3 mb-sm-0">
-            <button class="btn btn-danger w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary">View Exam QP</button>
+            <button class="btn btn-danger w-100 justify-content-center me-2 d-flex align-items-center" onclick="" id="AddTea" class="btn btn-primary">View Exam QP</button>
             </li>
-            @else
-            <li class="col-sm-12 mb-3 mb-sm-0">
-            <button class="btn btn-danger w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary">View Exam QP</button>
-            </li>
-            @endif
         </div>
       </ol>
     </nav>
@@ -88,16 +82,13 @@
 </div>
 </div>
 <div class="hideEdit" id="SearchTeacher">
+<div class="card shadow-none position-relative overflow-hidden mb-4">
+  <div class="card-body d-flex align-items-center justify-content-between p-4">
+    <h4 class="fw-semibold mb-0">Exam Question Paper</h4>
+  </div>
+</div>
+<div class="card">
 <div class="card-body">
-    <!-- Page Header -->
-    <div class="page-header">
-        <div class="row align-items-center">
-            <div class="col">
-                <h3 class="page-title">Question Paper</h3>
-            </div>
-        </div>
-    </div>
-    <!-- /Page Header -->
     <div class="row justify-content-center">
         <iframe src="{{ asset('storage/ExamQP/'.$data->question_paper_url.'#toolbar=0') }}" width="50%" height="600">
                 This browser does not support PDFs. Please download the PDF to view it: <a href="{{ asset('storage/ExamQP/'.$data->question_paper_url) }}">Download PDF</a>
