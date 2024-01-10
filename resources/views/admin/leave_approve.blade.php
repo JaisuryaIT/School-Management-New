@@ -1,7 +1,6 @@
 @extends('layouts.main')
 @section('title','Leave Approval')
 @push('internalCss')
-<link rel="stylesheet" href="{{asset('assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css')}}">
 @endpush
 
 @push('bodycontent')
@@ -74,6 +73,4 @@
 @endpush
 
 @push('javascript')
-<script src="{{asset('assets/libs/datatables.net/js/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('assets/js/datatable/datatable-basic.init.js')}}"></script>
 @endpush

@@ -14,7 +14,7 @@
 <div class="card">
     <div class="card-body">
     <h5 class="mb-3">Add Exam</h5>
-    <form action="{{ route('exam.store') }}" method="post" enctype="multipart/form-data">
+    <form action="{{ route('addexam') }}" method="post" enctype="multipart/form-data">
     @csrf
         <div class="row">
         <div class="col-md-4">

@@ -19,6 +19,7 @@
   <title>@yield('title','Custom Auth laravel')</title>
   <!-- jvectormap  -->
   <link rel="stylesheet" href="{{ asset('assets/libs/jvectormap/jquery-jvectormap.css') }}">
+  <link rel="stylesheet" href="{{asset('assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css')}}">
   @stack('internalCss')
 </head>
 

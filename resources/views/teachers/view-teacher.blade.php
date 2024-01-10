@@ -45,7 +45,6 @@
             <th>Salary</th>
             <th>Contact Number</th>
             <th></th>
-            <th></th>
         </tr>
         </thead>
         <tbody>
@@ -61,8 +60,6 @@
                 <a href="/leaveapply/{{$values->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Leave Apply">
                     <i class="ti ti-calendar fs-7"></i>
                 </a>
-                </td>
-                <td class="text-center">
                 <a href="/teacherprofile/{{$values->id}}" class="btn btn-sm bg-danger-light link-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Details">
                     <i class="ti ti-pencil fs-7"></i>
                 </a>

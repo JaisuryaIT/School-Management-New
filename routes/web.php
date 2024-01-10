@@ -72,7 +72,7 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/addteacher', [TeacherController::class, 'add']);
 
-    Route::post('/updateteacher/{id}', [TeacherController::class, 'updateteacher']);
+    Route::post('/updateteacher/{id}', [TeacherController::class, 'updateteacher'])->name('updateteacher');
     
     Route::post('/deleteteacher/{id}', [TeacherController::class, 'deleteteacher']);
 
@@ -98,9 +98,9 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/updateMarks/{id}', [ExamController::class, 'updateMarkView']);
 
-    Route::post('/addexam', [ExamController::class, 'add'])->name('exam.store');
+    Route::post('/addexam', [ExamController::class, 'add'])->name('addexam');
 
-    Route::post('/updateexam/{id}', [ExamController::class, 'updateexam']);
+    Route::post('/updateexam/{id}', [ExamController::class, 'updateexam'])->name('updateexam');
 
     Route::post('/deleteexam/{id}', [ExamController::class, 'deleteexam']);
 

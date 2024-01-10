@@ -85,7 +85,7 @@
         <div class="col-md-4">
             <div class="form-floating mb-3">
             <input type="text" name="previous_work_experience" class="form-control" id="tb-email3" />
-            <label for="tb-email3">Previous Work Experience</label>
+            <label for="tb-email3">Work Experience</label>
             </div>
         </div>
         <div class="col-md-4">

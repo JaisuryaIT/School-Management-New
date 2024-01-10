@@ -60,7 +60,7 @@ class TeacherController extends Controller
         $data->subject = $request->subject;
         $data->salary = $request->salary;
         $data->save();
-        return redirect()->route('teacherlist')->with('success','Teacher Updated Successfully');
+        return redirect()->back()->with('success','Teacher Details Updated Successfully');
     }
     public function deleteteacher($id){
         $teacher = TeachersBio::findOrFail($id);
