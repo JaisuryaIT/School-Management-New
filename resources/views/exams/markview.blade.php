@@ -14,17 +14,20 @@
     <h4 class="fw-semibold mb-0">Exam Info</h4>
     <nav aria-label="breadcrumb" style="justify-content: space-between;">
       <ol class="breadcrumb mb-0">
-        
-      @if($values->isNotEmpty())
-        <div class="row">
+      <div class="row">
+            @if($values->isNotEmpty())
             <li class="col-sm-6 mb-3 mb-sm-0">
             <button class="btn btn-indigo w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddStd()" id="AddStd" class="btn btn-primary">View Marklist</button>
             </li>
             <li class="col-sm-6 mb-3 mb-sm-0">
             <button class="btn btn-danger w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary">View Exam QP</button>
             </li>
+            @else
+            <li class="col-sm-12 mb-3 mb-sm-0">
+            <button class="btn btn-danger w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary">View Exam QP</button>
+            </li>
+            @endif
         </div>
-      @endif
       </ol>
     </nav>
   </div>
@@ -68,7 +71,7 @@
         <thead class="student-thread">
             <tr>
                 <th>Name</th>
-                <th class="text-end">Marks</th>
+                <th>Marks</th>
             </tr>
         </thead>
         <tbody>
