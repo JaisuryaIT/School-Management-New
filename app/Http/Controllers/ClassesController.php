@@ -122,7 +122,7 @@ class ClassesController extends Controller
             $student->fees = $class->fees;
             $student->save();
         }
-        return $this->editclass($id)->with('success','Students Added to Class Successfully');
+        return redirect()->back()->with('success','Students Added to Class Successfully');
     }
 
     public function teacherclassadd($id_teacher){
@@ -130,6 +130,6 @@ class ClassesController extends Controller
         $data = Classes::find($id);
         $data->teacher_id = $teacher;
         $data->save();
-        return $this->classstudents($id)->with('success','Teacher Added to Class Successfully');
+        return redirect()->classstudents($id)->with('message','Teacher Added to Class Successfully');
     }
 }

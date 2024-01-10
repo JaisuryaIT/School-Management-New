@@ -9,6 +9,16 @@
 @endpush
 
 @push('bodycontent')
+@if(session('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+     <span>   {{ session('success') }} </span>
+    </div>
+@endif
+@if(session('message'))
+<div class="alert alert-info alert-dismissible fade show" role="alert">
+  <span>   {{ session('message') }} </span>
+</div>
+@endif
 <div class="card shadow-none position-relative overflow-hidden mb-4">
   <div class="card-body d-flex align-items-center justify-content-between p-4">
     <h4 class="fw-semibold mb-0">Class Info</h4>

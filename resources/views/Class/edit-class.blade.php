@@ -9,6 +9,16 @@
 @endpush
 
 @push('bodycontent')
+@if(session('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+     <span>   {{ session('success') }} </span>
+    </div>
+@endif
+@if(session('message'))
+<div class="alert alert-info alert-dismissible fade show" role="alert">
+  <span>   {{ session('message') }} </span>
+</div>
+@endif
 <div class="card shadow-none position-relative overflow-hidden mb-4">
   <div class="card-body d-flex align-items-center justify-content-between p-4">
     <h4 class="fw-semibold mb-0">Class Info</h4>
@@ -18,12 +28,12 @@
             <li class="col-sm-4 mb-3 mb-sm-0">
             <button class="btn btn-primary w-100 justify-content-center me-2 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editmodal">Edit Class Info</button>
             </li>
-        <li class="col-sm-4 mb-3 mb-sm-0">
-        <button class="btn btn-success w-100 justify-content-center me-2 d-flex" onclick="AddStd()" id="AddStd" class="btn btn-primary">Add Students</button>
-        </li>
-        <li class="col-sm-4">
-        <button class="btn btn-indigo w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary">Assign Teacher</button>
-        </li>
+            <li class="col-sm-4 mb-3 mb-sm-0">
+            <button class="btn btn-success w-100 justify-content-center me-2 d-flex" onclick="AddStd()" id="AddStd" class="btn btn-primary">Add Students</button>
+            </li>
+            <li class="col-sm-4">
+            <button class="btn btn-indigo w-100 justify-content-center me-2 d-flex align-items-center"onclick="AddTea()" id="AddTea" class="btn btn-primary">Assign Teacher</button>
+            </li>
         </div>
       </ol>
     </nav>
