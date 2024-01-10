@@ -39,10 +39,10 @@ class LoginController extends Controller
             // 'accept_terms' => 'accepted',
         ]);
         $userData = $request->all();
-
+        $name = isset($userData['name']) ? $userData['name'] : '';
         // Create the user using the validated data
         $user = User::create([
-            'name' => '',
+            'name' => $name,
             'email' => $userData['email'],
             'password' => bcrypt($userData['password'])
         ]);

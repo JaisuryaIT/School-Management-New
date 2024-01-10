@@ -195,10 +195,10 @@
     <div class="card-body p-4">
       <div class="d-flex align-items-center justify-content-between gap-3">
         <div class="d-flex align-items-center gap-3">
-          <img src="{{asset('assets//images/profile/user-6.jpg')}}" width="45" height="45" class="img-fluid rounded-circle" alt="" />
+          <img src="{{asset('assets//images/profile/user-1.jpg')}}" width="45" height="45" class="img-fluid rounded-circle" alt="" />
           <div>
-            <h5 class="mb-1">Vrinvrog</h5>
-            <p class="mb-0">Admin</p>
+            <h5 class="mb-1">{{session('name')}}</h5>
+            <p class="mb-0">{{session('email')}}</p>
           </div>
         </div>
         <a href="/logout" class="position-relative" data-bs-toggle="tooltip" data-bs-placement="top"

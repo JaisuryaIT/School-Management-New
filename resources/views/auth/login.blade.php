@@ -57,7 +57,7 @@
                 </div>
                 <div class="mb-9">
                 <label for="exampleInputPassword1" class="form-label text-dark fw-bold">Password</label>
-                <input type="text" name="password" class="form-control py-6" id="exampleInputPassword1">
+                <input type="password" name="password" class="form-control py-6" id="exampleInputPassword1">
                 </div>
                 <div class="d-flex align-items-center justify-content-between mb-7 pb-1">
                 <a class="text-primary fw-medium fs-3 fw-bold" href="/forgot_password">Forgot Password ?</a>
