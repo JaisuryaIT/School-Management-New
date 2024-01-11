@@ -197,8 +197,8 @@
         <div class="d-flex align-items-center gap-3">
           <img src="{{asset('assets//images/profile/user-1.jpg')}}" width="45" height="45" class="img-fluid rounded-circle" alt="" />
           <div>
-            <h5 class="mb-1">{{session('name')}}</h5>
-            <p class="mb-0">{{session('email')}}</p>
+            <h5 class="mb-1">{{session('name')!=''?session('name'):session('email')}}</h5>
+            <p class="mb-0">{{session('name')!=''?'User':'Admin'}}</p>
           </div>
         </div>
         <a href="/logout" class="position-relative" data-bs-toggle="tooltip" data-bs-placement="top"

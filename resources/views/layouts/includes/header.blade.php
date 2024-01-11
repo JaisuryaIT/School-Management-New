@@ -261,10 +261,10 @@
 
               <div class="d-none d-sm-block">
                 <h6 class="fw-bold fs-4 mb-1 profile-name">
-                {{ session('name') }}
+                {{session('name')!=''?session('name'):session('email')}}
                 </h6>
                 <p class="fs-3 lh-base mb-0 profile-subtext">
-                {{ session('email') }}
+                {{session('name')!=''?session('email'):'Adminmail'}}
                 </p>
               </div>
             </div>
@@ -281,11 +281,11 @@
   <div class="d-flex align-items-center mx-7 py-9 border-bottom">
     <img src="{{asset('assets//images/profile/user-1.jpg')}}" alt="user" width="90" class="rounded-circle" />
     <div class="ms-4">
-      <h4 class="mb-0 fs-5 fw-normal">{{ session('name') }}</h4>
-      <span class="text-muted">Super Admin</span>
+      <h4 class="mb-0 fs-5 fw-normal">{{session('name')!=''?session('name'):session('email')}}</h4>
+      <span class="text-muted">{{session('name')!=''?'User':'Admin'}}</span>
       <p class="text-muted mb-0 mt-1 d-flex align-items-center">
         <iconify-icon icon="solar:mailbox-line-duotone" class="fs-4 me-1"></iconify-icon>
-        {{ session('email') }}
+        {{session('name')!=''?session('email'):'Adminmail'}}
       </p>
     </div>
   </div>
@@ -968,10 +968,10 @@
 
               <div class="d-none d-sm-block">
                 <h6 class="fw-bold fs-4 mb-1 profile-name">
-                {{ session('name') }}
+                {{session('name')!=''?session('name'):session('email')}}
                 </h6>
                 <p class="fs-3 lh-base mb-0 profile-subtext">
-                {{ session('email') }}
+                {{session('name')!=''?session('email'):'Adminmail'}}
                 </p>
               </div>
             </div>
@@ -988,11 +988,11 @@
   <div class="d-flex align-items-center mx-7 py-9 border-bottom">
     <img src="{{asset('assets//images/profile/user-1.jpg')}}" alt="user" width="90" class="rounded-circle" />
     <div class="ms-4">
-      <h4 class="mb-0 fs-5 fw-normal">{{ session('name') }}</h4>
-      <span class="text-muted">super admin</span>
+      <h4 class="mb-0 fs-5 fw-normal">{{session('name')!=''?session('name'):session('email')}}</h4>
+      <span class="text-muted">{{session('name')!=''?'User':'Admin'}}</span>
       <p class="text-muted mb-0 mt-1 d-flex align-items-center">
         <iconify-icon icon="solar:mailbox-line-duotone" class="fs-4 me-1"></iconify-icon>
-        {{ session('email') }}
+        {{session('name')!=''?session('email'):'Adminmail'}}
       </p>
     </div>
   </div>

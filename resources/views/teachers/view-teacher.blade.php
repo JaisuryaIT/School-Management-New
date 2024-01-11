@@ -94,7 +94,6 @@
           <button class="btn btn-primary w-100 mb-7 rounded-pill">Sign Up</button>
           </div>
       </form>
-      </div>
       <div class="modal-footer">
         <button type="button" class="btn bg-danger-subtle text-danger font-medium waves-effect"
           data-bs-dismiss="modal">
