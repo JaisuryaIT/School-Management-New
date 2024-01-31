@@ -51,7 +51,7 @@ class StudentController extends Controller
 
     public function editstudent($id){
         $data = StudentsBio::find($id);
-        $data->class_name = Classes::where('id', $data->class_id)->value('ClassID');
+        $data->class_name = $data->class_id ? Classes::where('id', $data->class_id)->value('ClassID'):'Not Added to Class';
         return view('student.profile', compact('data'));
     }
 
